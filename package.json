@@ -1,0 +1,25 @@
+{
+  "name": "vue-sourcecode-study",
+  "version": "1.0.0",
+  "description": "Vue 源码学习",
+  "main": ".babelrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/ -d lib/",
+    "prepublish": "npm run build",
+    "flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukiyang0729/vue-sourcecode-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yukiyang0729/vue-sourcecode-study/issues"
+  },
+  "homepage": "https://github.com/yukiyang0729/vue-sourcecode-study#readme",
+  "devDependencies": {
+    "flow-bin": "^0.98.1"
+  }
+}
